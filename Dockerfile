@@ -84,7 +84,7 @@ ENV LD_PRELOAD  /opt/td-agent/embedded/lib/libjemalloc.so
 #  - 9880:  in_http (HTTP input via POST)
 #  - 24230: debug_agent
 #  - 24220: monitor_agent (monitoring agent)
-EXPOSE 24224 9880 24230
+# EXPOSE 24224 9880 24230
 
 
 # for convenience
